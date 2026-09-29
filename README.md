@@ -38,6 +38,9 @@
 ## 주요 기능 (Features)
 
 ### 🏠 홈 (연도별 아카이브)
+<br>
+<img width="1901" height="1032" alt="Image" src="https://github.com/user-attachments/assets/5ebc348b-3953-4006-a962-54d14f2772f8" />
+<br>
 - 그동안의 코스프레 기록(사진 · 사진사 · 참여 행사)을 연도별 아코디언으로 묶어서 표시
 - 연도별 페이지네이션, 게시물 클릭 시 오른쪽 패널에 상세 표시
 - 등록 · 수정 · 삭제 (이미지 업로드 포함)
@@ -45,6 +48,9 @@
 <!-- <img src="docs/images/archive.png" width="700"> -->
 
 ### 🎪 행사
+<br>
+<img width="1901" height="1032" alt="Image" src="https://github.com/user-attachments/assets/663f4dff-e940-4032-8372-63aa56b94648" />  
+<br>
 - 지역(서울 · 부산 · 전라 · 기타) 카드별 행사 목록 관리
 - 지역 클릭 시 오른쪽 패널에 해당 지역 행사 상세 표시
 - 등록 · 수정 · 삭제
@@ -52,6 +58,9 @@
 <!-- <img src="docs/images/event.png" width="700"> -->
 
 ### ⭐ 위시
+<br>
+<img width="1901" height="1032" alt="Image" src="https://github.com/user-attachments/assets/129b4dca-f448-403d-a436-03d35fca5495" />
+<br>
 - 하고 싶은 코스프레를 완료 / 미완료 상태로 관리
 - 위시 하나당 참고할 샵(구매처) 목록을 별도로 첨부 · 수정 · 삭제
 - 탭바로 상태별 필터링
@@ -59,12 +68,18 @@
 <!-- <img src="docs/images/wish.png" width="700"> -->
 
 ### 📝 플랜
+
+<img width="1920" height="988" alt="Image" src="https://github.com/user-attachments/assets/570ddcab-76fe-47bd-b353-2096a7f0d986" />
+
 - 확정된 코스프레 계획을 완료 / 미완료 + 요일(토 · 일 · 양일)로 관리
 - 이미지 업로드 지원
 
 <!-- <img src="docs/images/plan.png" width="700"> -->
 
 ### ℹ️ 정보
+<br>
+<img width="1901" height="1032" alt="Image" src="https://github.com/user-attachments/assets/5ba8ad45-eaf4-4fbe-99b9-8e4f72fb8187" />
+<br>
 - 세팅 · 제작 · 자세 · 샵 · 기타 카테고리별 노하우 아카이브
 - 게시글마다 댓글식으로 추가 메모(+URL) 기록 · 수정 · 삭제
 
@@ -99,15 +114,15 @@
 
 ## 시스템 아키텍처
 
-이미지 넣을것
+<img width="799" height="598" alt="Image" src="https://github.com/user-attachments/assets/67e5a771-eb39-4e5a-b7b4-2fad316656c0" />
 
 <br>
 
 ## ERD
 
-이미지 넣을것
+<img width="1282" height="742" alt="Image" src="https://github.com/user-attachments/assets/d2b8478f-e05c-4c36-a718-5f3fd1c72acb" />
 
-
+<br>
 | 테이블 | 설명 | 컬럼 |
 |---|---|---|
 | `picture` | 홈에 올라가는 코스프레 기록 | `pic_id`(PK), `pic_name`, `pic_file`, `photographer`, `pic_event`, `pic_year` |
@@ -181,6 +196,8 @@ String myPass = "<비밀번호>";
 
 > 업로드한 이미지는 각 메뉴의 `webapp/<메뉴>/upload/` 폴더에 저장됩니다.
 
+### 3. 웹 배포
+https://cosplay-archive-f8903be177b6.herokuapp.com/로 배포 하였습니다.
 <br>
 
 ## 회고
